@@ -1,63 +1,69 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="./assets/js/color-modes.js"></script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.118.2">
-    <title>Fixed top navbar example · Bootstrap v5.3</title>
+<head>
+  <script src="./assets/js/color-modes.js"></script>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.118.2">
+  <title>Fixed top navbar example · Bootstrap v5.3</title>
 
-    
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
-
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="navbar-fixed.css" rel="stylesheet">
-  </head>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
 
 
 
-  <body>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
 
+  <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">World Calculator</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav me-auto mb-2 mb-md-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-     
+  <!-- Custom styles for this template -->
+  <link href="navbar-fixed.css" rel="stylesheet">
+
+  <style>
+    .main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin: auto;
+      padding: 10px 0;
+      background-color: rgba(255, 255, 255, 1);
+      color: black;
+      border-radius: 50px;
+    }
+    body{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url(assets/giornata-nazionale-risparmio-energetico.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-top: 500px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">World Calculator</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<main class="container">
-  <div class="bg-body-tertiary p-5 rounded">
-    <h1>Navbar example</h1>
-    <p class="lead">This example is a quick exercise to illustrate how fixed to top navbar works. As you scroll, it will remain fixed to the top of your browser’s viewport.</p>
-    <a class="btn btn-lg btn-primary" href="../components/navbar/" role="button">View navbar docs &raquo;</a>
-  </div>
-</main>
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+  <main class="container">
+    <div class="main">
+      <h1>Calcolatore di consumi</h1>
+      <p class="lead">Questo calcolatore è stato creato per analizzare quante terre, dal punto di vista del consumo di materiali e materie prime, ci vorrebbero se tutto il mondo vivesse come te.</p>
+      <a class="btn btn-lg btn-primary" href="./calcolo.php" role="button">Fai il test &raquo;</a>
+    </div>
+  </main>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    </body>
+</body>
+
 </html>
