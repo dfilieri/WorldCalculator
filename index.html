@@ -23,28 +23,86 @@
   <link href="navbar-fixed.css" rel="stylesheet">
 
   <style>
+    html{
+      font-family: 'Times New Roman', Times, serif;
+    }
     .main {
       display: flex;
       align-items: center;
       flex-direction: column;
       margin: auto;
-      padding: 10px 0;
+      padding: 10px;
       background-color: rgba(255, 255, 255, 1);
       color: black;
       border-radius: 50px;
+      border-color: black;
     }
     body{
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url(giornata-nazionale-risparmio-energetico.jpg);
+      background-image: url(giornata-nazionale-risparmio-energetico.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      padding-top: 400px  ;
+      padding-top: 400px;
+      min-height: auto
+    }
+    .btn-primary {
+      font-size: 1.2rem;
+      padding: 10px 20px;
+      border-radius: 25px;
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    .cloud-left {
+      position: absolute;
+      top: 20%;
+      left: -200px;
+      animation: cloudAnimationLeft 20s linear 1;
+    }
+    .cloud-right {
+      position: absolute;
+      top: 60%;
+      right: -50px;
+      animation: cloudAnimationRight 20s linear 1;
+    }
+    @keyframes cloudAnimationLeft {
+      0% {
+          transform: translateX(-100%);
+      }
+
+      50% {
+          transform: translateX(50%);
+      }
+
+      100% {
+          transform: translateX(50%);
+      }
+    }
+
+        @keyframes cloudAnimationRight {
+      0% {
+          transform: translateX(100%);
+      }
+
+      50% {
+          transform: translateX(-50%);
+      }
+
+      100% {
+          transform: translateX(-50%);
+      }
     }
   </style>
 
 </head>
 
 <body>
+  <!-- Prima nuvola -->
+  <img src="cloud.png"
+  alt="Cloud" class="cloud-left">
+
+  <!-- Seconda nuvola -->
+  <img src="cloud1.png"
+  alt="Cloud" class="cloud-right">
+
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">World Calculator</a>
