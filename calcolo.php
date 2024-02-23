@@ -94,10 +94,6 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
-
-      #ButtonConferma{
-        align-self: center;
-      }
     </style>
 
     
@@ -159,9 +155,8 @@
       </div>
     </nav>
 
-    <form action="risultato.php" method = "post">
+    <form>
       <fieldset id="domanda1">
-
         <!--domanda1-->
         <div class="b-example-divider"></div>
           <div class="bg-body-tertiary p-5 rounded">
@@ -170,28 +165,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer1_1">
                     <strong class="fw-semibold">Mai</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer1_2">
                     <strong class="fw-semibold">Ogni tanto</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer1_3">
                     <strong class="fw-semibold">Spesso</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question1" id="answer1_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer1_4">
                     <strong class="fw-semibold">Molto Spesso</strong>
                   </label>
@@ -202,7 +197,6 @@
         </div>
       </fieldset>
       <fieldset id="domanda2">
-
         <!--domanda2-->
         <div class="b-example-divider"></div>
           <div class="bg-body-tertiary p-5 rounded">
@@ -211,28 +205,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_1" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer2_1">
                     <strong class="fw-semibold">0%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_2" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer2_2">
                     <strong class="fw-semibold">30%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_3" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer2_3">
                     <strong class="fw-semibold">60%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_4" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question2" id="answer2_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer2_4">
                     <strong class="fw-semibold">100%</strong>
                   </label>
@@ -243,7 +237,6 @@
         </div>
       </fieldset>
       <fieldset id="domanda3">
-
         <!--domanda3-->
         <div class="b-example-divider"></div>
           <div class="bg-body-tertiary p-5 rounded">
@@ -252,28 +245,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_1" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer3_1">
                     <strong class="fw-semibold">Condominio</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer3_2">
                     <strong class="fw-semibold">Bifamiliare</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_3" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer3_3">
                     <strong class="fw-semibold">Unifamiliare</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_4" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question3" id="answer3_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer3_4">
                     <strong class="fw-semibold">Casa popolare</strong>
                   </label>
@@ -284,7 +277,6 @@
         </div>
       </fieldset>
       <fieldset id="domanda4">
-
         <!--domanda4-->
         <div class="b-example-divider"></div>
           <div class="bg-body-tertiary p-5 rounded">
@@ -293,28 +285,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer4_1">
                     <strong class="fw-semibold">Paglia/bambu</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer4_2">
                     <strong class="fw-semibold">Matotni id terra e paglia</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer4_3">
                     <strong class="fw-semibold">Cemento/mattoni</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question4" id="answer4_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer4_4">
                     <strong class="fw-semibold">Acciaio</strong>
                   </label>
@@ -325,7 +317,6 @@
         </div>
       </fieldset>
       <fieldset id="domanda5">
-
         <!--domanda5-->
         <div class="b-example-divider"></div>
           <div class="bg-body-tertiary p-5 rounded">
@@ -334,28 +325,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer5_1">
                     <strong class="fw-semibold">1-2</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer5_2">
                     <strong class="fw-semibold">3-4</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer5_3">
                     <strong class="fw-semibold">5-6</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question5" id="answer5_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer5_4">
                     <strong class="fw-semibold">più di 6</strong>
                   </label>
@@ -374,28 +365,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer6_1">
                     <strong class="fw-semibold">Inferiore alla media</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer6_2">
                     <strong class="fw-semibold">Nella media</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer6_3">
                     <strong class="fw-semibold">Sopra la media</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question6" id="answer6_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer6_4">
                     <strong class="fw-semibold">Efficete</strong>
                   </label>
@@ -414,28 +405,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer7_1">
                     <strong class="fw-semibold">0%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer7_2">
                     <strong class="fw-semibold">30%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer7_3">
                     <strong class="fw-semibold">60%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question7" id="answer7_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer7_4">
                     <strong class="fw-semibold">100%</strong>
                   </label>
@@ -454,28 +445,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer8_1">
                     <strong class="fw-semibold">0-120</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer8_2">
                     <strong class="fw-semibold">120-240</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer8_3">
                     <strong class="fw-semibold">240-360</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question8" id="answer8_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer8_4">
                     <strong class="fw-semibold">più di 360</strong>
                   </label>
@@ -494,28 +485,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer9_1">
                     <strong class="fw-semibold">25km/l</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer9_2">
                     <strong class="fw-semibold">20km/l</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer9_3">
                     <strong class="fw-semibold">15km/l</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question9" id="answer9_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer9_4">
                     <strong class="fw-semibold">10km/l</strong>
                   </label>
@@ -534,28 +525,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer10_1">
                     <strong class="fw-semibold">0%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer10_2">
                     <strong class="fw-semibold">30%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer10_3">
                     <strong class="fw-semibold">60%</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question10" id="answer10_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer10_4">
                     <strong class="fw-semibold">100</strong>
                   </label>
@@ -574,28 +565,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer11_1">
                     <strong class="fw-semibold">Mai</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer11_2">
                     <strong class="fw-semibold">Ogni tanto</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer11_3">
                     <strong class="fw-semibold">Spesso</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question11" id="answer11_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer11_4">
                     <strong class="fw-semibold">Molto spesso</strong>
                   </label>
@@ -614,28 +605,28 @@
               <div class="list-group list-group-radio d-grid gap-2 border-0">
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_1" value="0.16">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_1" value="0.08">
                   <label class="list-group-item py-3 pe-5" for="answer12_1">
                     <strong class="fw-semibold">0-30</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_2" value="0.33">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_2" value="1.8">
                   <label class="list-group-item py-3 pe-5" for="answer12_2">
                     <strong class="fw-semibold">30-60</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_3" value="0.66">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_3" value="3.3">
                   <label class="list-group-item py-3 pe-5" for="answer12_3">
                     <strong class="fw-semibold">60-90</strong>
                   </label>
                 </div>
 
                 <div class="position-relative">
-                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_4" value="0.8">
+                  <input class="form-check-input position-absolute top-50 end-0 me-3 fs-5" type="radio" name="question12" id="answer12_4" value="5.8">
                   <label class="list-group-item py-3 pe-5" for="answer12_4">
                     <strong class="fw-semibold">più di 90</strong>
                   </label>
@@ -645,10 +636,6 @@
           <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
         </div>
       </fieldset>
-      <div class="b-example-divider"></div>
-      <div class="bg-body-tertiary p-5 rounded">
-        <button class="btn btn-lg btn-primary" type="submit" id = "ButtonConferma">Conferma</button>
-      </div>
     </form>
   </body>
 </html>
