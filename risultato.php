@@ -24,8 +24,21 @@
 </head>
 
 <body>
+    <style>
+        body {
+            background-color: white;
+        }
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        #navVerde {
+            background-color: #00bf58;
+        }
+
+        p {
+            color: black;
+        }
+    </style>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navVerde">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">World Calculator</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
@@ -68,7 +81,7 @@
         }
 
         // Stampare la somma delle risposte
-        echo "La somma delle risposte è: " . $risultato;
+        echo "<p>La somma delle risposte è: " . $risultato . "</p>";
     }
     ?>
 
