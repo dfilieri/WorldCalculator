@@ -79,12 +79,12 @@
         --bs-btn-bg: var(--bd-violet-bg);
         --bs-btn-border-color: var(--bd-violet-bg);
         --bs-btn-hover-color: var(--bs-white);
-        --bs-btn-hover-bg: #6528e0;
-        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-hover-bg: #00bf58;
+        --bs-btn-hover-border-color: #00bf58;
         --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
-        --bs-btn-active-color: var(--bs-btn-hover-color);
-        --bs-btn-active-bg: #5a23c8;
-        --bs-btn-active-border-color: #5a23c8;
+        --bs-btn-active-color: #00bf58;
+        --bs-btn-active-bg: #00bf58;
+        --bs-btn-active-border-color: #00bf58;
       }
 
       .bd-mode-toggle {
@@ -647,7 +647,7 @@
       </fieldset>
       <div class="b-example-divider"></div>
       <div class="bg-body-tertiary p-5 rounded">
-        <button class="btn btn-lg btn-primary" type="submit" id = "ButtonConferma">Conferma</button>
+        <button class="btn btn-bd-primary rounded-pill" type="submit" id = "ButtonConferma">Conferma</button>
       </div>
     </form>
   </body>
