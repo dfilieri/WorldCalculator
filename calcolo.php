@@ -98,7 +98,10 @@
       #ButtonConferma{
         align-self: center;
       }
-    </style>
+      #nav-bg{
+        background-color: #00bf58;
+      }
+      </style>
 
     
     <!-- Custom styles for this template -->
@@ -143,7 +146,7 @@
 
 
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id ="nav-bg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">World Calculator</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
