@@ -25,17 +25,49 @@
 
 <body>
     <style>
-        body {
-            background-color: white;
-        }
-
-        #navVerde {
-            background-color: #00bf58;
-        }
-
-        p {
-            color: black;
-        }
+    #navVerde {
+        background-color: #212529;
+    }
+    html{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    body{
+        background-image: url("immagini/giornata-nazionale-risparmio-energetico.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 400px;
+        min-height: auto
+    }
+    .btn-primary { 
+        font-size: 1.2rem; 
+        padding: 10px 20px; 
+        border-radius: 25px; 
+        background-color: #00bf58; 
+        border-color: #00bf58; 
+        --bs-btn-hover-bg: #00bf58; 
+        --bs-btn-hover-border-color: #00bf58;
+    }
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        color: black;
+        border-radius: 50px;
+        border-color: black;
+        z-index: 2; /* Imposta un valore di z-index superiore */
+        position: relative; /* Assicurati che l'elemento abbia un posizionamento esplicito */
+    }
+    .terre-container {
+        display: flex; /* Utilizza flexbox per il layout */
+        justify-content: center; /* Centra gli elementi lungo l'asse principale */
+        align-items: center; /* Centra gli elementi lungo l'asse trasversale */
+    }
+    .terre-container img {
+        margin: 5px; /* Aggiungi un margine tra le immagini */
+    }
     </style>
 
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="navVerde">
@@ -79,10 +111,43 @@
             // Utilizza l'operatore di assegnazione corretto .= e incrementa il contatore
             $risultato += $_POST["question" . $i];
         }
-
+/*
         // Stampare la somma delle risposte
-        echo "<p>La somma delle risposte è: " . $risultato . "</p>";
+        echo "
+        <main class='container'>
+            <div class='main'>
+                <h1>Calcolatore di consumi</h1>
+                <p class='lead'>La somma delle risposte è: " . $risultato . "</p>
+                <p>". terre($risultato) ."<p/>
+            </div>
+        </main>
+        ";
+*/
     }
+
+    function terre($risultato) {
+        if (abs($risultato - round($risultato)) < 0.00001) {
+            for ($i = 0; $i < $risultato-1; $i++) {
+                echo "<img src='./immagini/globe.png' alt='terra' style='width:100px;height:100px;'>";
+            }
+        } else {
+            for ($i = 0; $i < $risultato-1; $i++) {
+                echo "<img src='./immagini/globe.png' alt='terra' style='width:100px;height:100px;'>";
+            }
+            echo "<img src='./immagini/0.5globe.png' alt='mezza_terra' style='width:100px;height:100px;'>";
+        }
+    }
+    
     ?>
+
+    <main class='container'>
+        <div class='main'>
+            <h1>Calcolatore di consumi</h1>
+            <p class='lead'>La somma delle risposte è: <?php echo $risultato; ?></p>
+            <div class="terre-container">
+                <?php terre($risultato); ?>
+            </div>
+        </div>
+    </main>
 
 </body>
