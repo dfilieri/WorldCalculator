@@ -57,16 +57,16 @@
         color: black;
         border-radius: 50px;
         border-color: black;
-        z-index: 2; /* Imposta un valore di z-index superiore */
-        position: relative; /* Assicurati che l'elemento abbia un posizionamento esplicito */
+        z-index: 2;
+        position: relative;
     }
     .terre-container {
-        display: flex; /* Utilizza flexbox per il layout */
-        justify-content: center; /* Centra gli elementi lungo l'asse principale */
-        align-items: center; /* Centra gli elementi lungo l'asse trasversale */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .terre-container img {
-        margin: 5px; /* Aggiungi un margine tra le immagini */
+        margin: 5px;
     }
     </style>
 
@@ -111,18 +111,6 @@
             // Utilizza l'operatore di assegnazione corretto .= e incrementa il contatore
             $risultato += $_POST["question" . $i];
         }
-/*
-        // Stampare la somma delle risposte
-        echo "
-        <main class='container'>
-            <div class='main'>
-                <h1>Calcolatore di consumi</h1>
-                <p class='lead'>La somma delle risposte è: " . $risultato . "</p>
-                <p>". terre($risultato) ."<p/>
-            </div>
-        </main>
-        ";
-*/
     }
 
     function terre($risultato) {
